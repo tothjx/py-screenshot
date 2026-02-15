@@ -13,4 +13,4 @@ VERSION DATE:           VERSION:    DESCRIPTION:
 pyinstaller --onefile screenshot.py --name=screenshot --hiddenimport=pynput.keyboard --add-data "shot.wav;." --icon=floppy.ico
 ```
 ## DOWNLOAD
-[screenshot.exe](http://tothj.com/download/screenshot.exe)
+[screenshot.exe](https://tothj.com/download/screenshot.exe)
