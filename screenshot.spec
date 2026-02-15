@@ -5,7 +5,7 @@ a = Analysis(
     ['screenshot.py'],
     pathex=[],
     binaries=[],
-    datas=[],
+    datas=[('shot.wav', '.')],
     hiddenimports=['pynput.keyboard'],
     hookspath=[],
     hooksconfig={},
@@ -35,4 +35,5 @@ exe = EXE(
     target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
+    icon=['floppy.ico'],
 )
